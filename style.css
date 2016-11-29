@@ -1,53 +1,83 @@
 header {
   display: inline-block;
-  font-family: "Raleway";
-  font-size: 80px;
-  border-right: 3px solid black;
-  border-bottom: 3px solid black;
-  padding: 20px;
-  padding-right: 50px;
   float: left;
+  font-family: 'Ubuntu';
+  font-size: 40px;
+  margin: 30px;
+
+
+
 }
 
+.profile {
+  display: inline-block;
+  float: left;
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+  margin: 20px 0px 0px 10px;
+}
 
 aside {
-  float: right;
-  color: rgba(69, 240, 190, .8);
-  font-size: 68px;
-  font-family: "Raleway";
-  text-align: right;
   display: inline-block;
-  margin-right: 100px;
-  margin-top: -380px;
+  float: right;
+  font-family: 'Ubuntu';
+  font-size: 12px;
+  margin: 40px;
 }
 
-img {
-  text-align: center;
-  display: inline-block;
-  clear: all;
-  height: 300px;
-  width: 300px;
-  margin-top: -250px;
-  margin-right: 200px;
-  float: left;
-  border-radius: 250px;
-  float: right;
-}
-
-.aboutmod {
-  float: left;
-  line-height: 75px;
-  display: inline-block;
-  background-color: rgba(69, 240, 190, .8);
-  color: white;
-  font-size: 24px;
-  vertical-align: center;
-  font-family: "Raleway";
-  height: 75px;
-  width: 300px;
+.picone {
   clear: both;
-  text-align: center;
-  padding: 10px;
-  border-radius: 60px;
-  margin: 30px 50px 5px 80px;
+  display: block;
+  background-color: rgba(69, 240, 190, 1);
+  height: 250px;
+  border-radius: 15px;
+  margin-bottom: 80px;
+}
+
+.monitor {
+  height: 250px;
+  width: 250px;
+  margin: 60px 60px 60px 150px;
+}
+
+.pone {
+  font-size: 28px;
+  float: right;
+  clear: both;
+  width: 600px;
+  margin: 55px 120px 115px 0;
+  font-family: 'Ubuntu';
+  color: white;
+  letter-spacing: 5px;
+}
+
+.pictwo {
+  clear: both;
+  display: block;
+  background-color: #FF5722;
+  height: 250px;
+  border-radius: 15px;
+}
+
+.ptwo {
+  font-size: 28px;
+  float: left;
+  clear: both;
+  width: 600px;
+  margin: 55px 0 115px 120px;
+  font-family: 'Ubuntu';
+  color: white;
+  letter-spacing: 5px;
+}
+
+.website {
+  height: 250px;
+  width: 250px;
+  border-radius: 125px;
+  float: right;
+  margin: 90px 150px 60px 60px;
+}
+
+
 }
