@@ -1,83 +1,119 @@
 header {
-  display: inline-block;
-  float: left;
+
+
   font-family: 'Ubuntu';
   font-size: 40px;
-  margin: 30px;
+  margin: 25px 10px 5px 30px;
+}
 
+aside {
 
+  margin: 0 0 0 15px;
+  font-family: 'Ubuntu';
+  font-size: 12px;
 
+}
+
+.headwrap {
+  display: inline-block;
+  float: left;
+  margin: 0 0 20px 0;
 }
 
 .profile {
   display: inline-block;
-  float: left;
-  height: 70px;
-  width: 70px;
+  float: right;
+  height: 75px;
+  width: 75px;
   border-radius: 50px;
-  margin: 20px 0px 0px 10px;
+  margin: 15px 40px 0 10px;
 }
 
 aside {
   display: inline-block;
-  float: right;
+  margin: 0 0 0 15px;
   font-family: 'Ubuntu';
   font-size: 12px;
-  margin: 40px;
+
 }
 
 .picone {
   clear: both;
-  display: block;
-  background-color: rgba(69, 240, 190, 1);
-  height: 250px;
+  background-color: rgba(0, 240, 190, 1);
+  height: 180px;
   border-radius: 15px;
-  margin-bottom: 80px;
+  margin: 5px 0;
 }
 
 .monitor {
-  height: 250px;
-  width: 250px;
-  margin: 60px 60px 60px 150px;
+  height: 70%;
+  width: 130px;
+  margin: 27px 0 27px 5%;
+
 }
 
 .pone {
-  font-size: 28px;
   float: right;
-  clear: both;
-  width: 600px;
-  margin: 55px 120px 115px 0;
+  font-size: 18px;
   font-family: 'Ubuntu';
   color: white;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
+  width: 50%;
+  height: 130px;
+  margin: 27px 5% 27px 0;
+
 }
 
 .pictwo {
-  clear: both;
-  display: block;
-  background-color: #FF5722;
-  height: 250px;
+  background-color: rgba(240, 77, 60, 1);
+  height: 180px;
   border-radius: 15px;
+  margin: 5px 0;
 }
 
 .ptwo {
-  font-size: 28px;
   float: left;
-  clear: both;
-  width: 600px;
-  margin: 55px 0 115px 120px;
+  font-size: 18px;
   font-family: 'Ubuntu';
   color: white;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
+  width: 50%;
+  height: 130px;
+  margin: 27px 0 27px 5%;
+
 }
 
 .website {
-  height: 250px;
-  width: 250px;
-  border-radius: 125px;
   float: right;
-  margin: 90px 150px 60px 60px;
+  height: 70%;
+  width: 130px;
+  margin: 27px 5% 27px 0;
+  border-radius: 100px;
 }
+
+.picthree {
+  background-color: rgba(151, 122, 240, 1);
+  height: 180px;
+  border-radius: 15px;
+  margin: 5px 0;
+}
+
+.human1 {
+  height: 70%;
+  width: 130px;
+  margin: 27px 0 27px 5%;
+  border-radius: 100px;
+}
+
+.pthree {
+  float: right;
+  font-size: 14px;
+  font-family: 'Ubuntu';
+  color: white;
+  letter-spacing: 2px;
+  width: 50%;
+  height: 130px;
+  margin: 27px 5% 27px 0;
 
 
 }
