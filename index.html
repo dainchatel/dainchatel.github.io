@@ -1,95 +1,66 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>GA Press Release</title>
-    <link href="style.css" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css?family=Nunito:300|Oswald:700|Quicksand:700" rel="stylesheet">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+  <link href="style.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Quicksand:700" rel="stylesheet">
 
-
-  </head>
-  <body>
+<body>
 
 <header>
-  <img class="logo" src="logo.png" alt="bitch"/>
-  <h1>General Assembly</h1>
+  <h2>tic tac toe</h2>
+    <h3>by dain</h3>
 </header>
 
-<h3 class="byline">General Assembly offers classes and workshops worldwide</h3>
+<div id="wrapper">
+  <div class="column1">
+    <div class="unit"></div>
+    <div class="unit"></div>
+    <div class="unit"></div>
+  </div>
+  <div class="column2">
+    <div class="unit"></div>
+    <div class="unit"></div>
+    <div class="unit"></div>
+  </div>
+  <div class="column3">
+    <div class="unit"></div>
+    <div class="unit"></div>
+    <div class="unit"></div>
+  </div>
+</div>
 
-<aside>
-  <h3 class="release">For Immediate Release</h3>
-  <p class="details">General Assembly, which started in New York as a startup incubator, now offers classes and workshops in technology, design, and entrepreneurship, with campuses around the world in:<p>
-</aside>
-
-<div id="slides">
-  <div class="slide showing">
-    <h4>Atlanta</h4>
-    <img class="icon" src="global.png" alt="global">
-  </div>
-  <div class="slide">
-    <h4>Austin</h4>
-    <img class="icon" src="computer.png" alt="computer">
-  </div>
-  <div class="slide">
-    <h4>Boston</h4>
-    <img class="icon" src="smartphone.png" alt="smartphone">
-  </div>
-  <div class="slide">
-    <h4>Chicago</h4>
-    <img class="icon" src="wifi.png" alt="wifi">
-  </div>
-  <div class="slide">
-    <h4>Hong Kong</h4>
-    <img class="icon" src="global.png" alt="global">
-  </div>
-  <div class="slide">
-    <h4>London</h4>
-    <img class="icon" src="computer.png" alt="computer">
-  </div>
-  <div class="slide">
-    <h4>Los Angeles</h4>
-    <img class="icon" src="smartphone.png" alt="smartphone">
-  </div>
-  <div class="slide">
-      <h4>Melbourne</h4>
-    <img class="icon" src="wifi.png" alt="wifi">
-  </div>
-  <div class="slide">
-    <h4>New York City</h4>
-    <img class="icon" src="global.png" alt="global">
-  </div>
-  <div class="slide">
-    <h4>San Francisco</h4>
-    <img class="icon" src="computer.png" alt="computer">
-  </div>
-  <div class="slide">
-    <h4>Seattle</h4>
-    <img class="icon" src="global.png" alt="global">
-  </div>
-  <div class="slide">
-    <h4>Singapore</h4>
-    <img class="icon" src="smartphone.png" alt="smartphone">
-  </div>
-  <div class="slide">
-    <h4>Sydney</h4>
-    <img class="icon" src="wifi.png" alt="wifi">
-  </div>
-  <div class="slide">
-    <h4>Washington D.C.</h4>
-    <img class="icon" src="computer.png" alt="computer">
-  </div>
-
+<div id="xwins">x won, baby<br />
+  <button>play again?</button>
+</div>
+<div id ="owins">o won, baby<br />
+  <button>play again?</button>
+</div>
+<div id="scratch">nobody won, baby<br />
+  <button>play again?</button>
 </div>
 
 
 
-
-<div class="clear"></div>
-<footer>
-For more information, visit General Assembly's website, <a href="http://generalassemb.ly">generalassemb.ly</a>
-</footer>
-
+<!-- <div id="rowwrapper">
+  <div class="row1">
+    <div class="rowunit"></div>
+    <div class="rowunit"></div>
+    <div class="rowunit"></div>
+  </div>
+  <div class="row2">
+    <div class="rowunit"></div>
+    <div class="rowunit"></div>
+    <div class="rowunit"></div>
+  </div>
+  <div class="row3">
+    <div class="rowunit"></div>
+    <div class="rowunit"></div>
+    <div class="rowunit"></div>
+  </div>
+</div> -->
 
 <script src="main.js"></script>
 </body>
