@@ -1,0 +1,49 @@
+img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  position: absolute;
+  top: 60vh;
+  height: 20vh;
+  width: 100vw;
+  background: linear-gradient(to right, rgba(23, 186, 255, 1) 0%,rgba(255, 255, 255, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 5em;
+  font-family: 'Exo';
+  text-transform: uppercase;
+  padding-left: 2vw;
+  padding-top: 1vh;
+  letter-spacing: 1vw;
+}
+
+
+@keyframes glowing {
+  0% { background-color: rgba(23, 186, 255, .6); box-shadow: 0 0 3px 3px rgba(23, 186, 255, .6); }
+  50% {  }
+  100% { background-color: rgba(23, 186, 255, .6); box-shadow: 0 0 3px 3px rgba(23, 186, 255, .6); }
+}
+
+#play {
+  position: absolute;
+  top: 2.2vh;
+  right: 7vw;
+
+  padding: 3vh 3vw;
+  font-family: 'Exo';
+  -webkit-text-fill-color: rgba(255, 255, 255, .7);
+  font-size: 5vh;
+  color: white;
+  border: none;
+  background-color: rgba(23, 186, 255, 1);
+  box-shadow: 0 0 10px 10px rgba(23, 186, 255, 1);
+}
+
+
+/* game */
+
+
+
