@@ -3,6 +3,8 @@ body {
   perspective: 10000px;
 }
 
+/* animations adapted from https://cssanimation.rocks/spheres/ */
+
 @keyframes alien-anim {
   0% {
     transform: scale(1);}

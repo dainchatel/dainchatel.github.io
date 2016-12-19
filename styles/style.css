@@ -22,9 +22,9 @@ img {
 
 
 @keyframes glowing {
-  0% { background-color: rgba(23, 186, 255, .6); box-shadow: 0 0 3px 3px rgba(23, 186, 255, .6); }
-  50% {  }
-  100% { background-color: rgba(23, 186, 255, .6); box-shadow: 0 0 3px 3px rgba(23, 186, 255, .6); }
+  0% { background-color: rgba(23, 186, 255, .9); box-shadow: 0 0 9px 9px rgba(23, 186, 255, .9); }
+  50% { }
+  100% { background-color: rgba(23, 186, 255, .9); box-shadow: 0 0 9px 9px rgba(23, 186, 255, .9); }
 }
 
 #play {
@@ -40,6 +40,7 @@ img {
   border: none;
   background-color: rgba(23, 186, 255, 1);
   box-shadow: 0 0 10px 10px rgba(23, 186, 255, 1);
+
 }
 
 
